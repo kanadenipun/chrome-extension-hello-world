@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+
+    "name": "Hello-World Plugin",
+    "description": "This is a hello world extension",
+    "version": "1.0",
+
+    "browser_action": {
+    "default_icon": "favicon.ico",
+        "default_popup": "popup.html"
+},
+    "permissions": [
+    "activeTab"
+]
+}
